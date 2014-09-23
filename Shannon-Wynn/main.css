@@ -22,23 +22,11 @@ h2 {
   margin-left: 25px;
 }
 
-footer {
-    font size: 1em;
-}
-
 .example {
   font-weight: bold;
 }
 
-.example2 {
-  font-weight: bold;
-}
-
 #before::before {
-  content: url(bradyhead.png);
-}
-
-#after::after {
   content: url(bradyhead.png);
 }
 
@@ -47,7 +35,17 @@ footer {
   color: blue;
 }
 
+#after::after {
+  content: url(bradyhead.png);
+}
+
 #after2::after {
   content: " Because.";
   color: blue;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    font-size: .75em;
 }
