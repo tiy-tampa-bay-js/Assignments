@@ -5,7 +5,31 @@ body {
     }
 
 h1 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    position: center;
+    font-family: verdana;
+}
+
+h3 {
     color: navy;
     position: center;
     font-family: verdana;
+}
+
+footer {
+    font size: 1em;
+}
+
+.example {
+  font-weight: bold;
+}
+
+p.#before::before {
+  content: url(bradyhead.png);
+}
+
+p.#after::after {
+  content: url(bradyhead.png);
 }
