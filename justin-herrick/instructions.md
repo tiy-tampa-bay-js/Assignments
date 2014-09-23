@@ -1,8 +1,6 @@
 #Hello Students#
 
 Your assignment is to:
-  * Fork this repo on github (__you have already done this__)
-  * Clone your forked repo onto your local machine
   * Create a folder with your name
   * Inside that folder create a single page website that explains how to use any CSS3 property with 2 examples
 
