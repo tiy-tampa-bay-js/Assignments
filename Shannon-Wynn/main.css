@@ -18,11 +18,19 @@ h3 {
     font-family: verdana;
 }
 
+h2 {
+  margin-left: 25px;
+}
+
 footer {
     font size: 1em;
 }
 
 .example {
+  font-weight: bold;
+}
+
+.example2 {
   font-weight: bold;
 }
 
@@ -32,4 +40,14 @@ footer {
 
 #after::after {
   content: url(bradyhead.png);
+}
+
+#before2::before {
+  content: "Why??? ";
+  color: blue;
+}
+
+#after2::after {
+  content: " Because.";
+  color: blue;
 }
