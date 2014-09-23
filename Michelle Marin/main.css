@@ -26,6 +26,20 @@ header {
 	columns:3;
 }
 
+.container-2 {
+  width:97%;
+  margin-top: 25px;
+  text-align:center;
+  display: inline block;
+  font-family: "Helvetica", Sans Serif;
+}
+
+.container-2 p{
+  -moz-columns:5;
+  -webkit-columns:5;
+  columns:5;
+}
+
 footer {
   clear: all;
   margin-top: 20px;
