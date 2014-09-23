@@ -26,10 +26,10 @@ footer {
   font-weight: bold;
 }
 
-p.#before::before {
+#before::before {
   content: url(bradyhead.png);
 }
 
-p.#after::after {
+#after::after {
   content: url(bradyhead.png);
 }
