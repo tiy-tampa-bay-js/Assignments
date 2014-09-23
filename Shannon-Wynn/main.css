@@ -1,0 +1,11 @@
+body {
+      background-color: lightgray;
+      color: black;
+      font-family: arial;
+    }
+
+h1 {
+    color: navy;
+    position: center;
+    font-family: verdana;
+}
