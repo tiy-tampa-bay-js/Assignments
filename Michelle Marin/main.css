@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%
+  height: auto;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  width: 97%;
+  padding: 15px;
+  font-family: "Helvetica", Sans Serif;
+  text-align: center;
+}
+
+.container {
+  width:97%;
+  margin-top: 25px;
+  text-align:center;
+  display: inline block;
+  font-family: "Helvetica", Sans Serif;
+}
+
+.container p{
+	-moz-columns:3;
+	-webkit-columns:3;
+	columns:3;
+}
+
+footer {
+  clear: all;
+  margin-top: 20px;
+  position: relative;
+  font-family: "Helvetica", Sans Serif;
+}
+
+
+a {
+  color: #3abcb4;
+}
+
+ul {
+    list-style-type: circle;
+    color: #7459a6;
+}
