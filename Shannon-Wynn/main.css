@@ -1,0 +1,71 @@
+body {
+      background-color: lightgray;
+      color: black;
+      font-family: arial;
+    }
+
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 600 px;
+  height: 100 px;
+}
+
+.Brady {
+  padding: 50px;
+}
+.whybecause {
+  padding: 50px;
+}
+
+h1 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    position: center;
+    font-family: verdana;
+}
+
+h3 {
+    color: navy;
+    position: center;
+    font-family: verdana;
+}
+
+span {
+  font-weight: bold;
+}
+
+.example {
+  font-weight: bold;
+}
+
+.number {
+  font-style: italic;
+  color: darkred;
+}
+
+#before::before {
+  content: url(bradyhead.png);
+}
+
+#before2::before {
+  content: "Why??? ";
+  color: blue;
+}
+
+#after::after {
+  content: url(bradyhead.png);
+}
+
+#after2::after {
+  content: " Because.";
+  color: blue;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    bottom: 0;
+    font-size: .75em;
+}
