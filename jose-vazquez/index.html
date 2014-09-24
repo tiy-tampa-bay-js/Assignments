@@ -15,7 +15,7 @@
 			CSS gradients are rad. You can do some pretty neat things with them :)
 		</p>
 		<p>
-			Gradients are usually displayed as one color that fades into another. With CSS3 you can control every aspect of how that happens, from the direction to the colors (as many colors as you want) to where those color changes happen. In the same way that the background of an element can be declared to be a certain color in CSS (e.g. "background-color: #ecf0f1;"), the background can be declared to be a gradient.
+			Gradients are usually displayed as one color that fades into another. With CSS3 you can control every aspect of how that happens, from the direction to the colors (as many colors as you want) to where those color changes happen. In the same way that the background of an element can be declared to be a certain color in CSS (e.g. "background-color: #ecf0f1;"), the background can be declared to be a gradient (e.g. "background-image: linear-gradient(#16a085, #2980b9);").
 		</p>
 		<p>
 			Gradients can be done in two ways:
@@ -27,13 +27,29 @@
 		</p>
 	</section>
 
-	<div class="linear-example">
-		<p></p>
-	</div>
+	<div class="linear-example"></div>
+	<p>The CSS code for this <strong>linear</strong> gradient is:</p>
+	<code>
+		<ol>.linear-example {</ol>
+			<ol>height: 100px;</ol>
+			<ol>width: 400px;</ol>
+			<ol>margin-top: 20px;</ol>
+			<ol>background-image: linear-gradient(to right, #16a085, #2980b9);</ol>
+		<ol>}</ol>
+	</code>
 
-	<div class="radial-example">
-		<p></p>
-	</div>
+	<div class="radial-example"></div>
+	<p>The CSS code for this <strong>radial</strong> gradient is:</p>
+	<code>
+		<ol>.radial-example {</ol>
+			<ol>height: 100px;</ol>
+			<ol>width: 400px;</ol>
+			<ol>margin-top: 20px;</ol>
+			<ol>background-image: radial-gradient(#f39c12, #8e44ad);</ol>
+		<ol>}</ol>
+	</code>
+
+	<p>You're welcome.</p>
 
 	<footer>
 		<p>
