@@ -8,41 +8,38 @@
       <h1>CSS Before and After Properties: Demystified</h1>
       <div>
         <h3>CSS Before</h3>
-        <p>The ::before property will add designated content before the element to which it is applied.</p>
-        <p class="example"> h2::before { <br />
-          content: url(bradyhead.png);<br />
-        }
+        <p>The ::before property will add designated content <span>BEFORE</span> the element to which it is applied.</p>
       </div>
-      <div>
-        <p><h2 id="before">This is Brady before the title</h2>
-        </div>
-
-        <p class="example"> p::before { <br />
+        <section class="Brady">
+        <h4 class="number">Example #1</h4><p class="example"> h2::before { <br />
+          content: url(cathead.png);<br />
+        }
+      </p>
+        <h2 id="before">There is a cat's head before the title</h2>
+      </section>
+      <section class="whybecause">
+        <h4 class="number">Example #2</h4><p class="example"> p::before { <br />
           content: "Why???";<br />
         }
-      </div>
-      <div>
-        <p><h2 id="before2">Because.</h2>
-        </div>
+        <h2 id="before2">Because.</h2>
+        </section>
 
       <div>
         <h3>CSS After</h3>
-        <p>The ::after property will add designated content after the element to which it is applied.</p>
-        <p class="example"> h2::after { <br />
-          content: url(bradyhead.png);<br />
-        }
+        <p>The ::after property will add designated content <span>AFTER</span> the element to which it is applied.</p>
       </div>
-      <div>
-        <p><h2 id="after">This is Brady after the title</h2>
-        </div>
-
-        <p class="example"> h2::after { <br />
+      <section class="Brady">
+        <h4 class="number">Example #1</h4><p class="example"> h2::after { <br />
+          content: url(cathead.png);<br />
+        }
+        <h2 id="after">There is a cat's head after the title</h2>
+        </section>
+      <section class="whybecause">
+        <h4 class="number">Example #2</h4><p class="example"> p::after { <br />
           content: Because;<br />
         }
-      </div>
-      <div>
-        <p><h2 id="after2">Why???</h2>
-        </div>
+        <h2 id="after2">Why???</h2>
+        </section>
 
     </header>
 
