@@ -1,7 +1,18 @@
 body {
 	font-family: "Verdana", sans-serif;
+	background-color: #bdc3c7;
 }
 
-.linear-example
+.linear-example {
+	height: 100px;
+	width: 400px;
+	margin-top: 20px;
+	background-image: linear-gradient(to right, #16a085, #2980b9);
+}
 
-.radial-example
+.radial-example {
+	height: 100px;
+	width: 400px;
+	margin-top: 20px;
+	background-image: radial-gradient(#f39c12, #8e44ad);
+}
