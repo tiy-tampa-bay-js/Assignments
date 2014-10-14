@@ -35,11 +35,12 @@ body {
     height: auto;
     margin: .5em;
     padding: 1em;
-    width: 30vmax;
+    width: 50%;
   }
 .example-div-2:hover {
-    -webkit-transition: width 1s step-end;
-    width: 50%;
+    -webkit-transition: width 2s ease-in-out;
+    background-color: blue;
+    width: 55%;
   }
 .example-div-2 p {
     color: white;
